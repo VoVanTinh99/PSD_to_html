@@ -1,0 +1,127 @@
+#header {
+    background-color: #243238;
+    color: white;
+    height: 100px;
+    top: 10px;
+  }
+  #btn_header {
+    position: relative;
+    border: none;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: -20px;
+    background-color:#373737;
+    z-index: 0;
+}
+#btn_search {
+  position: relative;
+  border: none;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color:#59c54b;
+  z-index: 1;
+}
+#Lastest_properties{
+  background-color: #f8f8f8;
+  height: 813px;
+  z-index: 0;
+}
+#btn_lastest_properties{
+  position: relative;
+  border: none;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color:#59c54b;
+  z-index: 2;
+  float: right;
+  margin-top: -220px;
+}
+#Athenian_Supreme_Mansion{
+  background-color: #373737;
+  height: 500px;
+  z-index: 0;
+  color: #ffffff;
+  margin-top: -4px;
+}
+#btn_Athenian_Supreme_Mansion{
+  position: relative;
+  border: none;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color:#59c54b;
+  z-index: 2;
+}
+#comment{
+  background-color: #222324;
+  color: #c6c6c6;
+}
+#hero{
+  height: 170px;
+  background-color: #444444;
+}
+#instagram{
+  height: 189px;
+  background-color: #f8f8f8;
+  color: #797979;
+}
+#a_lastest_properties{
+  height: 35px;
+  width: 35px;
+  padding: 10px; 
+  border: 1px solid #ebebeb;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+#a_lastest_properties:hover{
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  background-color: #28721e;
+  color: #eef8ed;
+  text-decoration: none;
+  border: 1px solid #ebebeb; 
+}
+#property_Athenian_Supreme_Mansion{
+  height: 220px;
+  text-align: center;
+}
+#btn_property_Athenian_Supreme_Mansion{
+  position: relative;
+  border: none;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color:#59c54b;
+  z-index: 2;
+}
+#properties{
+  background-color: #f8f8f8;
+  height: 2500px;
+}

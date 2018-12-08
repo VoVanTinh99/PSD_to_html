@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+ }
+#BG_0
+	{ 
+		left: -3px; 
+		position: absolute; 
+		width: 2084px;
+		height: 1000px;
+		z-index: 1;
+   }
+   #BG_1 
+   { 
+		left: 169px; 
+		top: 350px; 
+		position: absolute; 
+		width: 963px;
+		height: 404px;
+		z-index: 10;
+   } 
+   #background 
+   { 
+		left: 0px; 
+		top: 0px; 
+		position: relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 1280px;
+		height: 3680px; 
+		overflow: hidden;
+		z-index:0;
+	   }
+	   #BG_3 
+	   { 
+		left: 790px; 
+		top: 350px; 
+		position: absolute; 
+		width: 963px;
+		height: 404px;
+		z-index: 10;
+	   } 
+	   #Button_24
+	   { 
+			left: 257px; 
+			top: 650px; 
+			position: absolute; 
+			width: 164px;
+			height: 49px;
+			z-index:11;
+	   } 
+	   #Button_39
+	   { 
+			left: 560px;
+			top: 650px; 
+			position: absolute; 
+			width: 164px;
+			height: 49px;
+			z-index:12;
+	   } 
+	   #p{
+		
+			top: 100px; 
+			position: absolute; 
+			z-index: 10;
+			left: 350px;
+			color: white;
+	   }
+	   #Img 
+	   { 
+			left: -2px; 
+			top: 850px; 
+			position: absolute; 
+			width: 1314px;
+			height: 986px;
+			z-index:9;
+	   } 
+	   #Card_0 
+	   { 
+			
+			top: 1294px; 
+			position: absolute; 
+			width: 355px;
+			height: 458px;
+			z-index:10;
+	   } 
+	   #button_2{
+		top: 1600px; 
+		position: absolute; 
+		width: 164px;
+		height: 49px;
+		z-index:11;
+	   }
+	   #Img_3 
+	   { 
+			left: -2px; 
+			top: 1800px; 
+			position: absolute; 
+			width: 1314px;
+			height: 986px;
+			z-index:9;
+	   } 
+	   #Card_3 { 
+		top: 2000px; 
+		position: absolute; 
+		width: 313px;
+		height: 502px;
+		z-index:10;
+   }
+   #button_3{
+	top: 2350px; 
+	position: absolute; 
+	width: 164px;
+	height: 49px;
+	z-index:11;
+   } 
+   #Img_4
+   { 
+		left: -2px; 
+		top: 2600px; 
+		position: absolute; 
+		width: 1314px;
+		height: 986px;
+		z-index:9;
+   } 
+   #Card_4 { 
+	top: 2900px; 
+	position: absolute; 
+	width: 313px;
+	height: 502px;
+	z-index:10;
+}
+#button_4{
+	top: 3350px; 
+	position: absolute; 
+	width: 164px;
+	height: 49px;
+	z-index:11;
+   }
+   #img_4{
+	top: 2930px; 
+	position: absolute; 
+	width: 164px;
+	height: 49px;
+	z-index:11;
+   }
