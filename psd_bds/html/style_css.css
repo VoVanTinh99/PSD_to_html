@@ -123,5 +123,20 @@
 }
 #properties{
   background-color: #f8f8f8;
-  height: 2500px;
+  height: 2700px;
+}
+#description{
+  background-color: #ffffff;
+  width: 262px;
+  height: 282px;
+  color: #373737;
+  margin-top: 60px;
+  margin-left: 550px;
+}
+#map_video{
+  background-color: #ffffff;
+  width: 847px;
+  height: 330px;
+  color: #373737;
+  margin-top: 30px;
 }
