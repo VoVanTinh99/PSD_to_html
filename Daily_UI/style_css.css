@@ -1,0 +1,71 @@
+#daily_background{
+    background-color: #e9edf0;
+    height: 940px;
+    position: absolute;
+    z-index: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 33%;
+    height: 820px; /* only for demonstration, should be removed */
+    background: #fa8f0d;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 300px; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fd9530;
+    color: white;
+    width: 343px;
+  }

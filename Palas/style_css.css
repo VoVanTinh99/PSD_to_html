@@ -1,0 +1,156 @@
+#nav_header{
+    background-color: #303539;
+    color: #B8BABB;
+    height: 40px;
+    padding-top: 7px;
+}
+#nav_header a{
+    background-color: #303539;
+    color: #B8BABB;
+    padding-top: 7px;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+#nav_header a:hover{
+    color: #186A91;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    background:#77757B; 
+    border: none; 
+    color:#ffffff;
+    position:absolute;
+    z-index:1;
+    font-size: 15px;
+    padding-top: 30px;
+    width: 100%;
+    opacity: 0.2;
+    filter: alpha(opacity=60);
+}
+.navbar a{
+    color:#F5F5F5;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background:none; 
+    border: none; 
+    color:#186A91;
+}
+#container_responsive{
+    height: 400px;
+    background-color: #ffffff;
+    padding-top: 100px;
+    color: #93939D;
+}
+#about{
+    height: 380px;
+    background-color: #303236;
+    color: #A5A8A9;
+}
+#section_caption{
+    height: 380px;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding-top: 100px; 
+}
+#section_3_part{
+        height: 230px;
+        background-color: #ffffff;
+        padding-top: 100px;
+        color: #93939D;
+        
+}
+#Our_project{
+    color: #6B6B7A;
+    height: 750px;
+    padding-top: 170px;
+    font-size: 18px;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+  }
+  #theteambehind{
+      background-color: #303236;
+      height: 800px;
+      text-align: center;
+      color: #BFC2C2;
+      padding-top: 70px;
+  }
+  .bg-image {
+    /* Full height */
+    height: 50%; 
+    
+    /* Center and scale the image nicely */
+    background-size: cover;
+    position:relative;
+    float: left;
+    width:317px;
+    z-index: 1;
+  }
+    .img1 { background-image: url("http://abusinesstheme.com/demo/palas/images/demo/team1.jpg"); }
+    .img2 { background-image: url("http://abusinesstheme.com/demo/palas/images/demo/team2.jpg");}
+    .img3 { background-image: url("http://abusinesstheme.com/demo/palas/images/demo/team3.jpg");}
+    .img4 { background-image: url("http://abusinesstheme.com/demo/palas/images/demo/team4.jpg");}
+    .img5 { background-image: url("http://abusinesstheme.com/demo/palas/images/demo/team5.jpg"); }
+    .img6 { background-image: url("http://abusinesstheme.com/demo/palas/images/demo/team6.jpg"); }
+    #Testimonials{
+        height: 200px;
+        font-size: 17px;
+    }
+    #Top_notch_Support{
+        height: 250px;
+        background-color: #F5F5F5;
+        padding-top: 30px;
+        font-size: 17px;
+    }
+#footer{
+    height: 350px;
+    background-color: #303236;
+    color: #B8BABE;
+    padding-top: 50px;
+    font-size: 14px;
+}
+.midd{
+    transition: .5s ease;
+    position: absolute;
+    top: 300%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color:#ffffff;
+    opacity: 0;
+  }
+  
+  .column:hover .image {
+    opacity: 0.5;
+  }
+  
+  .column:hover .midd {
+    opacity: 1;
+  }
+  .scrollToTop{
+    width:50px; 
+    height:100px;
+    padding:10px; 
+    text-align:center; 
+    font-weight: bold;
+    text-decoration: none;
+    position:fixed;
+    top :260px;
+    right: 50px;
+    display:none;
+    z-index: 9999;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
